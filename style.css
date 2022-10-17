@@ -137,16 +137,26 @@
   }
   .nav-links a{
     color: var(--White);
-    font-size: .8em;
+    font-size:1rem;
+    font-weight: 600;
   }
 
   .Font-Fraunces-9pt{
     font-family: 'Fraunces' ;
   }
-  .nav-links a:nth-last-child(1){
-    
+  .nav-links :nth-last-child(1){
+    color: var(--Very-dark-desaturated-blue);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
+    background-color: var(--White);
+    border: 1px solid var(--White);
+    padding: .5rem 1.5rem;
+    border-radius: 25px;
+  }
+  .nav-links :nth-last-child(1):hover{
+    color: var(--White);
+    text-transform: uppercase;
+    font-weight: 900;
     background-color: rgb(110, 206, 255);
     border: 1px solid rgb(110, 206, 255);
     padding: .5rem 1.5rem;
