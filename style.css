@@ -16,8 +16,15 @@
 @font-face {
     font-family: 'Barlow' ;
     src: url(fonts/Barlow/Barlow-Regular.ttf);
-    /*font-family: 'Fraunces-9pt' ;
-    src: url(fonts/Fraunces/static/Fraunces_9pt/Fraunces_9pt-Regular.ttf);*/
+  }
+  @font-face{
+    font-family: 'Fraunces-Soft' ;
+    src: url(fonts/Fraunces/static/Fraunces_9pt_SuperSoft/Fraunces_9pt_SuperSoft-BlackItalic.ttf);
+  }
+
+  @font-face{
+    font-family: 'Fraunces' ;
+    src: url(fonts/Fraunces/static/Fraunces_9pt_SuperSoft/Fraunces_9pt_SuperSoft-Bold.ttf);
   }
   /*Reset*/
   /* Box sizing rules */
@@ -132,15 +139,7 @@
     color: var(--White);
     font-size: .8em;
   }
-  @font-face{
-    font-family: 'Fraunces-Soft' ;
-    src: url(fonts/Fraunces/static/Fraunces_9pt_SuperSoft/Fraunces_9pt_SuperSoft-BlackItalic.ttf);
-  }
 
-  @font-face{
-    font-family: 'Fraunces' ;
-    src: url(fonts/Fraunces/static/Fraunces_9pt_SuperSoft/Fraunces_9pt_SuperSoft-Bold.ttf);
-  }
   .Font-Fraunces-9pt{
     font-family: 'Fraunces' ;
   }
@@ -201,7 +200,7 @@
   }
 
   .hero-section{
-    background-image:url('/images/desktop/image-header.jpg');  
+    background-image:url('images/desktop/image-header.jpg');  
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover;
@@ -445,7 +444,7 @@ footer *{
     display: none;
   }
   .hero-section{
-    background-image: url('/images/mobile/image-header.jpg');
+    background-image: url('images/mobile/image-header.jpg');
   }
   .hero-section h1{
     font-size: 2rem;
